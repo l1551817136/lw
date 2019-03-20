@@ -9,4 +9,3 @@ def user(name):
    return render_template('user.html', comments=dit )
 if __name__ == "__main__":
     app.run(debug = True)
-    # 加个注释
