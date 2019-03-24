@@ -1,0 +1,5 @@
+SECRET_KEY = 'flaskMysql'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:honoka.cc@222.197.201.131:3306/lw?charset=utf8'
+SQLALCHEMY_TRACK_MODIFICATIONS = True
+DEBUG = True 
+SQLALCHEMY_TRACK_MODIFICATIONS = False
